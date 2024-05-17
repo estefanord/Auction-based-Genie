@@ -1,0 +1,497 @@
+ITEMS TO SELL:
+ 6 ride 7 T=morning
+ 6 ride 7 T=afternoon
+ 6 ride 7 T=evening
+ 8 ride 13 T=morning
+ 8 ride 13 T=afternoon
+ 8 ride 13 T=evening
+ 6 ride 6 T=morning
+ 6 ride 6 T=afternoon
+ 6 ride 6 T=evening
+ 5 ride 12 T=morning
+ 5 ride 12 T=afternoon
+ 5 ride 12 T=evening
+ 7 ride 5 T=morning
+ 7 ride 5 T=afternoon
+ 7 ride 5 T=evening
+ 6 ride 11 T=morning
+ 6 ride 11 T=afternoon
+ 6 ride 11 T=evening
+ 9 ride 4 T=morning
+ 9 ride 4 T=afternoon
+ 9 ride 4 T=evening
+ 8 ride 10 T=morning
+ 8 ride 10 T=afternoon
+ 8 ride 10 T=evening
+ 8 ride 3 T=morning
+ 8 ride 3 T=afternoon
+ 8 ride 3 T=evening
+ 9 ride 9 T=morning
+ 9 ride 9 T=afternoon
+ 9 ride 9 T=evening
+ 8 ride 2 T=morning
+ 8 ride 2 T=afternoon
+ 8 ride 2 T=evening
+ 9 ride 8 T=morning
+ 9 ride 8 T=afternoon
+ 9 ride 8 T=evening
+ 11 ride 1 T=morning
+ 11 ride 1 T=afternoon
+ 11 ride 1 T=evening
+---------------
+Name: Agent 983
+Bids:
+  19  ride 2 T=morning
+  19  ride 8 T=morning
+  19  ride 1 T=morning
+  18  ride 4 T=morning
+  18  ride 10 T=morning
+------------
+Name: Agent 623
+Bids:
+  58  ride 2 T=morning
+  58  ride 8 T=morning
+  58  ride 1 T=morning
+  57  ride 3 T=morning
+  57  ride 9 T=morning
+------------
+Name: Agent 277
+Bids:
+  24  ride 1 T=morning
+  23  ride 3 T=morning
+  23  ride 9 T=morning
+  23  ride 2 T=morning
+  23  ride 8 T=morning
+------------
+Name: Agent 69
+Bids:
+  33  ride 1 T=morning
+  32  ride 3 T=morning
+  32  ride 9 T=morning
+  32  ride 2 T=morning
+  32  ride 8 T=morning
+------------
+Name: Agent 113
+Bids:
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+  25  ride 1 T=morning
+  24  ride 3 T=morning
+  24  ride 9 T=morning
+------------
+Name: Agent 392
+Bids:
+  53  ride 2 T=morning
+  53  ride 8 T=morning
+  53  ride 1 T=morning
+  52  ride 4 T=morning
+  52  ride 10 T=morning
+------------
+Name: Agent 992
+Bids:
+  51  ride 1 T=morning
+  50  ride 3 T=morning
+  50  ride 9 T=morning
+  50  ride 2 T=morning
+  50  ride 8 T=morning
+------------
+Name: Agent 76
+Bids:
+  41  ride 2 T=morning
+  41  ride 8 T=morning
+  41  ride 1 T=morning
+  40  ride 4 T=morning
+  40  ride 10 T=morning
+------------
+Name: Agent 185
+Bids:
+  21  ride 2 T=morning
+  21  ride 8 T=morning
+  21  ride 1 T=morning
+  20  ride 3 T=morning
+  20  ride 9 T=morning
+------------
+Name: Agent 881
+Bids:
+  26  ride 1 T=morning
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+  24  ride 4 T=morning
+  24  ride 10 T=morning
+------------
+Name: Agent 838
+Bids:
+  20  ride 2 T=morning
+  20  ride 8 T=morning
+  20  ride 1 T=morning
+  19  ride 3 T=morning
+  19  ride 9 T=morning
+------------
+Name: Agent 888
+Bids:
+  46  ride 1 T=morning
+  45  ride 3 T=morning
+  45  ride 9 T=morning
+  45  ride 2 T=morning
+  45  ride 8 T=morning
+------------
+Name: Agent 5
+Bids:
+  13  ride 2 T=morning
+  13  ride 8 T=morning
+  13  ride 1 T=morning
+  12  ride 4 T=morning
+  12  ride 10 T=morning
+------------
+Name: Agent 859
+Bids:
+  53  ride 1 T=morning
+  52  ride 3 T=morning
+  52  ride 9 T=morning
+  52  ride 2 T=morning
+  52  ride 8 T=morning
+------------
+Name: Agent 121
+Bids:
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+  25  ride 1 T=morning
+  24  ride 4 T=morning
+  24  ride 10 T=morning
+------------
+Name: Agent 606
+Bids:
+  44  ride 2 T=morning
+  44  ride 8 T=morning
+  44  ride 1 T=morning
+  43  ride 3 T=morning
+  43  ride 9 T=morning
+------------
+Name: Agent 895
+Bids:
+  50  ride 1 T=morning
+  49  ride 3 T=morning
+  49  ride 9 T=morning
+  49  ride 2 T=morning
+  49  ride 8 T=morning
+------------
+Name: Agent 228
+Bids:
+  19  ride 1 T=morning
+  18  ride 3 T=morning
+  18  ride 9 T=morning
+  18  ride 2 T=morning
+  18  ride 8 T=morning
+------------
+Name: Agent 214
+Bids:
+  51  ride 2 T=morning
+  51  ride 8 T=morning
+  51  ride 1 T=morning
+  50  ride 4 T=morning
+  50  ride 10 T=morning
+------------
+Name: Agent 53
+Bids:
+  32  ride 1 T=morning
+  31  ride 3 T=morning
+  31  ride 9 T=morning
+  31  ride 2 T=morning
+  31  ride 8 T=morning
+------------
+Name: Agent 987
+Bids:
+  51  ride 2 T=morning
+  51  ride 8 T=morning
+  51  ride 1 T=morning
+  50  ride 3 T=morning
+  50  ride 9 T=morning
+------------
+Name: Agent 48
+Bids:
+  34  ride 1 T=morning
+  33  ride 3 T=morning
+  33  ride 9 T=morning
+  33  ride 2 T=morning
+  33  ride 8 T=morning
+------------
+Name: Agent 988
+Bids:
+  26  ride 1 T=morning
+  25  ride 3 T=morning
+  25  ride 9 T=morning
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+------------
+Name: Agent 378
+Bids:
+  19  ride 2 T=morning
+  19  ride 8 T=morning
+  19  ride 1 T=morning
+  18  ride 4 T=morning
+  18  ride 10 T=morning
+------------
+Name: Agent 304
+Bids:
+  38  ride 1 T=morning
+  37  ride 3 T=morning
+  37  ride 9 T=morning
+  37  ride 2 T=morning
+  37  ride 8 T=morning
+------------
+Name: Agent 206
+Bids:
+  58  ride 1 T=morning
+  57  ride 3 T=morning
+  57  ride 9 T=morning
+  57  ride 2 T=morning
+  57  ride 8 T=morning
+------------
+Name: Agent 335
+Bids:
+  51  ride 1 T=morning
+  50  ride 3 T=morning
+  50  ride 9 T=morning
+  50  ride 2 T=morning
+  50  ride 8 T=morning
+------------
+Name: Agent 951
+Bids:
+  53  ride 2 T=morning
+  53  ride 8 T=morning
+  53  ride 1 T=morning
+  52  ride 4 T=morning
+  52  ride 10 T=morning
+------------
+Name: Agent 425
+Bids:
+  49  ride 2 T=morning
+  49  ride 8 T=morning
+  49  ride 1 T=morning
+  48  ride 4 T=morning
+  48  ride 10 T=morning
+------------
+Name: Agent 543
+Bids:
+  38  ride 2 T=morning
+  38  ride 8 T=morning
+  38  ride 1 T=morning
+  37  ride 4 T=morning
+  37  ride 10 T=morning
+------------
+Name: Agent 991
+Bids:
+  27  ride 2 T=morning
+  27  ride 8 T=morning
+  27  ride 1 T=morning
+  26  ride 4 T=morning
+  26  ride 10 T=morning
+------------
+Name: Agent 485
+Bids:
+  21  ride 2 T=morning
+  21  ride 8 T=morning
+  21  ride 1 T=morning
+  20  ride 4 T=morning
+  20  ride 10 T=morning
+------------
+Name: Agent 65
+Bids:
+  18  ride 2 T=morning
+  18  ride 8 T=morning
+  18  ride 1 T=morning
+  17  ride 4 T=morning
+  17  ride 10 T=morning
+------------
+Name: Agent 898
+Bids:
+  58  ride 1 T=morning
+  57  ride 3 T=morning
+  57  ride 9 T=morning
+  57  ride 2 T=morning
+  57  ride 8 T=morning
+------------
+Name: Agent 151
+Bids:
+  15  ride 2 T=morning
+  15  ride 8 T=morning
+  15  ride 1 T=morning
+  14  ride 4 T=morning
+  14  ride 10 T=morning
+------------
+Name: Agent 139
+Bids:
+  27  ride 1 T=morning
+  26  ride 3 T=morning
+  26  ride 9 T=morning
+  26  ride 2 T=morning
+  26  ride 8 T=morning
+------------
+Name: Agent 635
+Bids:
+  28  ride 1 T=morning
+  27  ride 3 T=morning
+  27  ride 9 T=morning
+  27  ride 2 T=morning
+  27  ride 8 T=morning
+------------
+Name: Agent 998
+Bids:
+  54  ride 2 T=morning
+  54  ride 8 T=morning
+  54  ride 1 T=morning
+  53  ride 4 T=morning
+  53  ride 10 T=morning
+------------
+Name: Agent 339
+Bids:
+  28  ride 2 T=morning
+  28  ride 8 T=morning
+  28  ride 1 T=morning
+  27  ride 4 T=morning
+  27  ride 10 T=morning
+------------
+Name: Agent 492
+Bids:
+  49  ride 2 T=morning
+  49  ride 8 T=morning
+  49  ride 1 T=morning
+  48  ride 4 T=morning
+  48  ride 10 T=morning
+------------
+Name: Agent 309
+Bids:
+  20  ride 1 T=morning
+  19  ride 3 T=morning
+  19  ride 9 T=morning
+  19  ride 2 T=morning
+  19  ride 8 T=morning
+------------
+Name: Agent 88
+Bids:
+  56  ride 1 T=morning
+  55  ride 3 T=morning
+  55  ride 9 T=morning
+  55  ride 2 T=morning
+  55  ride 8 T=morning
+------------
+Name: Agent 737
+Bids:
+  48  ride 2 T=morning
+  48  ride 8 T=morning
+  48  ride 1 T=morning
+  47  ride 3 T=morning
+  47  ride 9 T=morning
+------------
+Name: Agent 184
+Bids:
+  32  ride 2 T=morning
+  32  ride 8 T=morning
+  32  ride 1 T=morning
+  31  ride 4 T=morning
+  31  ride 10 T=morning
+------------
+Name: Agent 341
+Bids:
+  51  ride 2 T=morning
+  51  ride 8 T=morning
+  51  ride 1 T=morning
+  50  ride 4 T=morning
+  50  ride 10 T=morning
+------------
+Name: Agent 131
+Bids:
+  50  ride 1 T=morning
+  49  ride 3 T=morning
+  49  ride 9 T=morning
+  49  ride 2 T=morning
+  49  ride 8 T=morning
+------------
+Name: Agent 748
+Bids:
+  29  ride 2 T=morning
+  29  ride 8 T=morning
+  29  ride 1 T=morning
+  28  ride 4 T=morning
+  28  ride 10 T=morning
+------------
+Name: Agent 504
+Bids:
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+  25  ride 1 T=morning
+  24  ride 3 T=morning
+  24  ride 9 T=morning
+------------
+Name: Agent 284
+Bids:
+  44  ride 2 T=morning
+  44  ride 8 T=morning
+  44  ride 1 T=morning
+  43  ride 4 T=morning
+  43  ride 10 T=morning
+------------
+Name: Agent 42
+Bids:
+  26  ride 1 T=morning
+  25  ride 3 T=morning
+  25  ride 9 T=morning
+  25  ride 2 T=morning
+  25  ride 8 T=morning
+------------
+Name: Agent 393
+Bids:
+  25  ride 1 T=morning
+  24  ride 3 T=morning
+  24  ride 9 T=morning
+  24  ride 2 T=morning
+  24  ride 8 T=morning
+------------
+Name: Agent 573
+Bids:
+  29  ride 1 T=morning
+  28  ride 3 T=morning
+  28  ride 9 T=morning
+  28  ride 2 T=morning
+  28  ride 8 T=morning
+------------
+Name: Agent 832
+Bids:
+  17  ride 2 T=morning
+  17  ride 8 T=morning
+  17  ride 1 T=morning
+  16  ride 4 T=morning
+  16  ride 10 T=morning
+------------
+Name: Agent 416
+Bids:
+  28  ride 1 T=morning
+  27  ride 3 T=morning
+  27  ride 9 T=morning
+  27  ride 2 T=morning
+  27  ride 8 T=morning
+------------
+Name: Agent 209
+Bids:
+  15  ride 1 T=morning
+  14  ride 3 T=morning
+  14  ride 9 T=morning
+  14  ride 2 T=morning
+  14  ride 8 T=morning
+------------
+Name: Agent 140
+Bids:
+  13  ride 1 T=morning
+  12  ride 2 T=morning
+  12  ride 8 T=morning
+  11  ride 4 T=morning
+  11  ride 10 T=morning
+------------
+Name: Agent 965
+Bids:
+  53  ride 1 T=morning
+  52  ride 3 T=morning
+  52  ride 9 T=morning
+  52  ride 2 T=morning
+  52  ride 8 T=morning
+------------
