@@ -692,12 +692,12 @@ class Park:
             for attraction_name, attraction in self.attractions.items():
                 unique_seed = self.random_seed + agent.agent_id * 5
                 random.seed(unique_seed)
-                random_term = random.uniform(-5, 5)
+                random_term = random.uniform(-15, 15)
                 time_slots = int((60 / attraction.run_time) * 12)
                 num_passes = int((attraction.capacity * attraction.exp_queue_ratio))
-                times = {0: "morning", 25: "afternoon", 90: "evening"}
+                times = {3: "morning", 10: "afternoon", 30: "evening"}
                 for i in times.keys():
-                    bid_value = (0.55 * attraction.popularity) + 0.2 * (agent.behavior['attraction_preference'] + agent.behavior['wait_threshold']) - 0.15 * i + random_term
+                    bid_value = (0.45 * attraction.popularity) + 0.20* (agent.behavior['attraction_preference'] + agent.behavior['wait_threshold']) - 0.10 * i + random_term
                     bid_value = int(max(bid_value, 1))
                     output.append(f"  {bid_value}  {attraction_name} T={times[i]}")
             
@@ -709,36 +709,45 @@ class Park:
                 file.write(line + "\n")
     
     
-    def allocate_passes_from_auction_results(self, agents, attractions):
-        with open("auction_results.txt", 'r') as file:
+    def allocate_passes_from_auction_results(self):
+        with open("extended_auction_results.txt", 'r') as file:
             lines = file.readlines()
 
-        selected_agents = list(self.agents.items)
         current_agent_id = None
         for line in lines:
             if line.startswith('Agent_'):
                 # Extract the agent ID from the line
                 agent_id = int(line.split()[1])
                 current_agent_id = agent_id
-            elif 'pays' in line:
-                continue  # Skip the payment line
-            elif 'ride' in line:
-                # Extract ride and time slot information
-                parts = line.strip().split()
-                ride = parts[1]
-                time_slot = parts[-1]
+                parts = line.split()
+                ride = int(parts[2])
+                time = parts[3][2:]
                 # Assign the pass to the agent
-                if 'morning' in time_slot:
-                    time_slot = convert_time_slot_to_minutes(time_slot)  # Convert to an actual time if needed
-                agents[current_agent_id].assign_expedited_return_time(time_slot)
-                agents[current_agent_id].get_pass(ride, time_slot)
+                if time in ["morning", "afternoon", "evening"]:
+                    time = convert_time_slot_to_minutes(self, time, ride)  
+                    self.agents[current_agent_id].assign_expedited_return_time(time)
+                    self.agents[current_agent_id].get_pass(ride, time)
 
 
-def convert_time_slot_to_minutes(time_slot):
+def convert_time_slot_to_minutes(self, time, ride):
         # Example conversion, adjust based on your simulation setup
-    if time_slot == 'morning':
-        return 480  # Example: 8 AM in minutes from midnight
-    return 0
+    unique_seed = self.random_seed
+    random.seed(unique_seed)
+    ride = "ride " + str(ride)
+    for attraction_name, attraction in self.attractions.items():
+        if attraction == ride:
+            attraction = self.attractions[ride]
+            time_slots = int((60 / attraction.run_time) * 12)
+            if time == 'morning':
+                random_term = random.uniform(0, int(time_slots / 3))
+                return random_term  
+            elif time == 'afternoon':
+                random_term = random.uniform(int(time_slots / 3), int(2 * time_slots / 3))
+                return random_term
+            elif time == 'evening':
+                random_term = random.uniform(int(2 * time_slots / 3), time_slots)
+                return random_term
+            return 0
 
 
         

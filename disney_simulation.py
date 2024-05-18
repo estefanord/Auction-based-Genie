@@ -18,9 +18,9 @@ HOURLY_PERCENT = {
     "11:00 PM": 0,
     "12:00 PM": 0
 }
-EXP_ABILITY_PCT = 0.7
-EXP_THRESHOLD = 1
-EXP_LIMIT = 1
+EXP_ABILITY_PCT = 1.0
+EXP_THRESHOLD = 100
+EXP_LIMIT = 10
 
 AGENT_ARCHETYPE_DISTRIBUTION = {
     "ride_enthusiast": 30,
@@ -233,15 +233,13 @@ park.generate_agents(
     exp_limit=EXP_LIMIT
 )
 
-# Build Attractions + Activities
+park.allocate_passes_from_auction_results()
 park.generate_attractions()
 park.generate_activities()
 
-# Pass Time
 for _ in range(len(HOURLY_PERCENT.keys()) * 60):
     park.step()
 
-# Save Parameters of Current Run
 sim_parameters = {
     "VERSION": VERSION,
     "VERBOSITY": VERBOSITY,
@@ -264,12 +262,9 @@ park.write_data_to_file(
     output_file_format="json"
 )
 
-# Store + Print Data
-#park.make_plots(show=SHOW_PLOTS)
-#park.print_logs(N = 5)
-#park.print_logs(selected_agent_ids = [778])
+park.make_plots(show=SHOW_PLOTS)
+park.print_logs(N = 5)
+park.print_logs(selected_agent_ids = [140])
 park.generate_auction_file()
-
-
 
 
